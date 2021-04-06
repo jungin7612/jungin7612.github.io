@@ -96,7 +96,7 @@ a {
 
 .d-day {
   display: flex;
-  width: 60%;
+  width: 65%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -229,6 +229,8 @@ a {
     width: 100%;
     font-size: 8vmin;
     background: none;
+    border: 1px whitesmoke solid;
+    border-radius: 0.3em;
   }
 }
 
