@@ -42,8 +42,8 @@ a {
 }
 #years-select {
   position: absolute;
-  top: 1vw;
-  left: 3vh;
+  top: 4em;
+  left: 5em;
   background: none;
   padding: 6px 12px;
   font-size: 0.3em;
@@ -96,7 +96,7 @@ a {
 
 .d-day {
   display: flex;
-  width: 50%;
+  width: 55%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -182,7 +182,7 @@ a {
 
 /* media query */
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   #years-select {
     background: none;
     font-size: 7px;
@@ -221,6 +221,14 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 0.2em;
+  }
+  .text-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 8vmin;
+    background: none;
   }
 }
 
