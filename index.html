@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      user-scalable="no"
+    />
+    <title>수능 디데이</title>
+    <link rel="stylesheet" href="click.css" />
+  </head>
+  <body>
+    <select name="years" id="years-select" onchange="changeYears()">
+      <option id="hs3" value="hs3">고3</option>
+      <option id="hs2" value="hs2" selected>고2</option>
+      <option id="hs1" value="hs1">고1</option>
+    </select>
+    <header class="title-container">
+      <span id="floattext">정신 차리자</span>
+      <!-- <span onclick="cherryblossomOnoff()">
+        <a href="#" class="icon cherry-blossom" >🌸</a>
+      </span> -->
+      <!-- <div id="blossom_container"></div> -->
+      <div class="click">
+        <span class="mainText">현역</span>
+        <div class="button-container">
+          <a href="#" class="button-item" onclick="add()">+365</a>
+          <a href="#" class="button-item" onclick="subtract()">-365</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- <div class="date">
+          <span id="YYMMDD">0000년 00월 00일</span>
+          <span id="time">00:00:00</span>
+        </div>
+        <hr /> -->
+    <div class="main-container">
+      <div class="d-day">
+        <div class="totest">수능까지</div>
+        <div class="text-container">
+          <div id="day" class="d-dayText"></div>
+          <div id="hour" class="d-dayText"></div>
+          <div id="minute" class="d-dayText"></div>
+          <div id="second" class="d-dayText"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="click.js"></script>
+  </body>
+</html>
