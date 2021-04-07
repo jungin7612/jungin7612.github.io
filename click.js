@@ -84,8 +84,9 @@ const initialize = () => {
   for (let k = 1; k < 4; k++) {
     if (useroption === "hs" + k) {
       console.log(dateValue);
+      console.log(k);
       dateValue = 3 - k;
-      sel.selectedIndex = k-1;
+      sel.selectedIndex = k - 1;
       console.log(sel.selectedIndex);
     }
   }
