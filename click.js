@@ -129,9 +129,8 @@ function getDdays() {
   second = Math.floor(seconds * 60);
   let dDayText = document.getElementsByClassName("d-dayText");
   let array = [days, hour, minute, second];
-  let textarray = ["일", "시간", "분", "초"];
   for (let i = 0; i < 4; i++) {
-    dDayText[i].innerText = array[i] + textarray[i];
+    dDayText[i].innerText = array[i];
   }
 }
 
