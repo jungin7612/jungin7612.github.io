@@ -9,7 +9,8 @@ a {
   position: absolute;
   color: rgb(224, 224, 224);
   font-family: "KOTRA_BOLD-Bold";
-  font-size: 3vmin;
+  font-size: 4vmin;
+  z-index: -1;
 }
 #floattext {
   top: 22vh;
@@ -61,10 +62,10 @@ a {
   background: none;
   padding: 6px 12px;
   font-size: 0.3em;
-  border: 1.5px solid black;
-  color: black;
+  border: 2px solid #999;
+    color: #999;
   border-radius: 5px;
-  width: 5vw;
+  width: 14em;
   height: 5.5em;
   min-width: 9em;
   min-height: 5em;
@@ -76,12 +77,12 @@ a {
   justify-content: space-around;
 }
 .button-item {
-  font-size: 1em;
+  font-size: 1vw;
   border-radius: 0.3rem;
   color: black;
   border: black 1.5px solid;
   width: 10vw;
-  height: 1.5em;
+  height: 5vh;
   text-align: center;
   display: flex;
   align-items: center;
@@ -94,29 +95,7 @@ a {
   border: white 1.5px solid;
 }
 
-/* date css */
-
-.date {
-  display: flex;
-  flex-direction: column;
-  font-size: 5.4vmin;
-  text-align: center;
-  margin-bottom: 0.5em;
-  font-family: "NEXON Lv1 Gothic OTF";
-  font-weight: bold;
-}
-
 /* d-day css */
-
-.d-day {
-  display: flex;
-  width: 65%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  margin-bottom: 0.5em;
-}
 .totest {
   text-align: center;
   color: salmon;
@@ -127,11 +106,7 @@ a {
 }
 
 .text-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 75%;
-  font-size: 8vmin;
+  font-size: 6vmin;
   background: linear-gradient(
     to bottom,
     #00000000 64%,
@@ -142,11 +117,8 @@ a {
   font-family: "IBMPlexSansKR-Regular";
 }
 .d-dayText {
-  display: flex;
   font-family: "IBMPlexSansKR-Regular";
   font-weight: bold;
-  justify-content: center;
-  align-items: center;
   border-radius: 0.2em;
 }
 
@@ -154,6 +126,8 @@ a {
 
 @media (max-width: 550px) {
   #years-select {
+    top: 4em;
+    left: 5em;
     background: none;
     font-size: 7px;
     border: 2px solid #999;
@@ -176,31 +150,12 @@ a {
     color: black;
     border: 1.5px black solid;
     width: 15em;
-    height: 4em;
+    height: 3em;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: "ELAND_Nice_M";
-  }
-  .d-dayText {
-    width: 40%;
-    height: 43%;
-    display: flex;
-    font-family: "IBMPlexSansKR-Regular";
-    justify-content: center;
-    align-items: center;
-    border-radius: 0.2em;
-  }
-  .text-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    font-size: 8vmin;
-    background: none;
-    border: 1px whitesmoke solid;
-    border-radius: 0.3em;
   }
 }
 
