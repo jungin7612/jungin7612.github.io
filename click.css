@@ -5,29 +5,27 @@
 a {
   text-decoration: none;
 }
-#floattext {
+.floatText {
   position: absolute;
+  color: rgb(224, 224, 224);
+  font-family: "KOTRA_BOLD-Bold";
+  font-size: 3vmin;
+}
+#floattext {
   top: 22vh;
   left: 5vw;
-  color: rgb(224, 224, 224);
-  font-family: "KOTRA_BOLD-Bold";
-  font-size: 5vmin;
 }
 #floattext1 {
-  position: absolute;
   top: 6vh;
   left: 70vw;
-  color: rgb(224, 224, 224);
-  font-family: "KOTRA_BOLD-Bold";
-  font-size: 5vmin;
 }
 #floattext2 {
-  position: absolute;
   top: 70vh;
   left: 10vw;
-  color: rgb(224, 224, 224);
-  font-family: "KOTRA_BOLD-Bold";
-  font-size: 5vmin;
+}
+#floattext3 {
+  top: 80vh;
+  left: 70vw;
 }
 .main-container {
   display: flex;

@@ -12,19 +12,16 @@
     <link rel="stylesheet" href="click.css" />
   </head>
   <body>
-    <select name="years" id="years-select" onchange="changeYears()" >
+    <select name="years" id="years-select" onchange="changeYears()">
       <option id="hs1" value="hs1">고1</option>
       <option id="hs2" value="hs2">고2</option>
       <option id="hs3" value="hs3" selected>고3</option>
     </select>
     <header class="title-container">
-      <span id="floattext">정신 차리자</span>
-      <span id="floattext1">연세대가 나를 기다린다</span>
-      <span id="floattext2">의대 가야지</span>
-      <!-- <span onclick="cherryblossomOnoff()">
-        <a href="#" class="icon cherry-blossom" >🌸</a>
-      </span> -->
-      <!-- <div id="blossom_container"></div> -->
+      <span id="floattext" class="floatText"></span>
+      <span id="floattext1" class="floatText"></span>
+      <span id="floattext2" class="floatText"></span>
+      <span id="floattext3" class="floatText"></span>
       <div class="click">
         <span class="mainText">현역</span>
         <div class="button-container">
@@ -34,17 +31,12 @@
       </div>
     </header>
 
-    <!-- <div class="date">
-          <span id="YYMMDD">0000년 00월 00일</span>
-          <span id="time">00:00:00</span>
-        </div>
-        <hr /> -->
     <div class="main-container">
       <div class="d-day">
         <div class="totest">수능까지</div>
         <span class="text-container">
           <span id="day" class="d-dayText"></span>일
-          <span id="hour" class="d-dayText"></span>시간 
+          <span id="hour" class="d-dayText"></span>시간
           <span id="minute" class="d-dayText"></span>분
           <span id="second" class="d-dayText"></span>초
         </span>
