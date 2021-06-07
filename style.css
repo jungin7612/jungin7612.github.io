@@ -1,0 +1,11 @@
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    outline: 1px solid black;
+    display: flex;
+}
+.wrap-container{
+    width:25%;
+    height: 100%;
+    outline: 1px solid black;
+}

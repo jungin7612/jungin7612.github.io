@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      user-scalable="no"
+    />
+    <title>수능 디데이</title>
+    <link rel="stylesheet" href="click.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <select name="years" id="years-select" onchange="changeYears()">
+      <option id="hs1" value="hs1">고1</option>
+      <option id="hs2" value="hs2" selected>고2</option>
+      <option id="hs3" value="hs3">고3</option>
+    </select>
+    <header class="title-container">
+      <span id="floattext" class="floatText"></span>
+      <span id="floattext1" class="floatText"></span>
+      <span id="floattext2" class="floatText"></span>
+      <span id="floattext3" class="floatText"></span>
+      <div class="click">
+        <span class="mainText">현역</span>
+        <div class="button-container">
+          <a href="#" class="button-item" onclick="add()">+365</a>
+          <a href="#" class="button-item" onclick="subtract()">-365</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <!-- <div class="d-day"> -->
+      <div class="totest">수능까지</div>
+      <span class="text-container">
+        <span id="day" class="d-dayText"></span>일
+        <span id="hour" class="d-dayText"></span>시간
+        <span id="minute" class="d-dayText"></span>분
+        <span id="second" class="d-dayText"></span>초
+      </span>
+      <!-- </div> -->
+    </div>
+
+    <script src="click.js"></script>
+  </body>
+</html>
